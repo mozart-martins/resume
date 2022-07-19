@@ -4,131 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resume</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        div#esquerda {
-            width: 35%;
-            float: left;
-        }
-
-        div#esquerda div {
-            background-color: lightgray;
-            margin-bottom: 2px;
-            min-height: 110px;
-            padding: 25px;
-        }
-
-        p#nome {
-            font-size: 20px;
-        }
-
-        p#cargo-alvo {
-            font-size: 16px;
-        }
-
-        ul#contato {
-            font-size: 12px;
-        }
-
-        div#esquerda li {
-            list-style: none;
-            line-height: 28px;
-        }
-
-        li#mail {
-            background: url("assets/images/mail.png") no-repeat left 1px;
-            padding-left: 3em;
-        }
-
-        li#phone {
-            background: url("assets/images/telefone.png") no-repeat left 1px;
-            padding-left: 3em;
-        }
-
-        li#endereco {
-            background: url("assets/images/mapa.png") no-repeat left 1px;
-            padding-left: 3em;
-        }
-        
-        li#github {
-            background: url("assets/images/github.png") no-repeat left 1px;
-            padding-left: 3em;
-        }
-
-        li#linkedin {
-            background: url("assets/images/linkedin.png") no-repeat left 1px;
-            padding-left: 3em;
-        }
-
-        div#esquerda p#titulo {
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-
-        p#universidade-nome {
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        p#universidade-local {
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-        p#universidade-curso {
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-        #item-esquerda {
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-        div#direita {
-            padding: 30px 30px 30px 370px;
-            /* margin-left: 300px; */
-        }
-
-        div#direita p#titulo {
-            font-size: 16px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            padding-bottom: 5px;
-            border-bottom: 2px solid lightgrey;
-        }
-
-        div#direita p#objetivo {
-            font-size: 12px;
-            margin-bottom: 20px;
-            text-align: justify;
-        }
-
-        div#direita p#cargo {
-            font-size: 14px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        div#direita p#empresa {
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-        div#direita li {
-            margin-left: 15px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 <body>
     <div id="esquerda">
@@ -149,6 +25,9 @@
         </div>
         <div>
             <p id="titulo">EDUCATION LEVEL</p>
+            <p id="universidade-nome">XP EDUCATIONAL</p>
+            <p id="universidade-curso">Studying Posgraduation in Software Engineer 2022</p>
+            <br>
             <p id="universidade-nome">POTIGUAR UNIVERSITY</p>
             <p id="universidade-local">Natal, Rio Grande do Norte</p>
             <p id="universidade-curso">Posgraduate in Administration 2008</p>
@@ -173,25 +52,54 @@
             <p id="item-esquerda">Native Portuguese</p>
             <p id="item-esquerda">Beginner Russian</p>
         </div>
+        <div>
+            <p id="titulo">PUBLICATIONS</p>
+            <p id="item-esquerda">O Menino e O Futebol: Um conto sobre superação</p>
+        </div>
     </div>
     <div id="direita">
         <div>
             <p id="titulo">CAREER OBJECTIVE</p>
             <p id="objetivo">
-                I look for a professional environment where I can collaborate with the team and the company.
+                I am looking for a professional environment where I can collaborate with the team and the company,
                 putting my experiences and knowledge in constant evolution.
             </p>
         </div>
         <div>
             <p id="titulo">PROFESSIONAL EXPERIENCES</p>
-            <p id="cargo">MINISTERIAL ANALYST SPECIALIZED IN SYSTEM ANALYSIS</p>
-            <p id="empresa">State Public Ministry, Palmas, Tocantins / jun 2016 to Present</p>
+            <p id="cargo">SOFTWARE ENGINEER</p>
+            <p id="empresa">BRK Ambiental / jun 2022 to present</p>
+            <ul>
+                <li>
+                    Web application development using Python and Django;
+                </li>
+                <li>
+                    Agile and devops culture and tools.
+                </li>
+            </ul>
+            <br>
+            <p id="cargo">SOFTWARE ENGINEER</p>
+            <p id="empresa">Grafeno / fev 2022 - jul 2022</p>
+            <ul>
+                <li>
+                    Web application development using Ruby and Ruby on Rails;
+                </li>
+                <li>
+                    RSpec test creation covering services and APIs;
+                </li>
+                <li>
+                    Agile and devops culture and tools.
+                </li>
+            </ul>
+            <br>
+            <p id="cargo">SOFTWARE ENGINEER</p>
+            <p id="empresa">State Public Ministry, Palmas, Tocantins / jun 2016 to present</p>
             <ul>
                 <li>
                     Analyses, maintenance and system development; 
                 </li>
                 <li>
-                    <mark><b>Fullstack Python, Javascript, Django and API Restfull;</b></mark>
+                    Fullstack Python, Javascript, Django and API Restfull;
                 </li>
                 <li>
                     Daily use of Linux, Visual Studio Code, GIT and Docker.
@@ -218,7 +126,7 @@
                 </li>
             </ul>
             <br>
-            <p id="cargo">INFORMATION TECHNOLOGY ANALYST</p>
+            <p id="cargo">SOFTWARE ENGINEER</p>
             <p id="empresa">Tocantins State Government / jun 2011 - dec 2013</p>
             <ul>
                 <li>
@@ -232,7 +140,7 @@
                 </li>
             </ul>
             <br>
-            <p id="cargo">INFORMATION SYSTEMS ANALYST</p>
+            <p id="cargo">SOFTWARE ENGINEER</p>
             <p id="empresa">Odebrecht Ambiental (Saneatins) / ago 2008 - jan 2011</p>
             <ul>
                 <li>
